@@ -1,0 +1,227 @@
+/******************
+ General
+******************/
+header {
+    float: left;
+    margin: 0;
+    padding: 20px 0 0 0;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    padding: 10px 0 0;
+    margin: 5px 0 0;
+}
+
+html { 
+  
+    background: url(../images/damons\ front.jpg) no-repeat center center fixed, rgb(106, 171, 196); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+  }
+
+/*******************
+ HEADING
+*******************/
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    margin: 10px 0;
+    font-size: 1.75em;
+    font-weight: normal;
+    line-height: 1.5em;
+    text-align: center;
+    
+}
+
+.navi {
+    font-size: 20px;
+}
+
+
+/*******************
+ NAVIGATION
+*******************/
+
+nav  {
+    text-align: center;
+    padding: 10px 0 0;
+    margin: 10px 0 0;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    font-weight: 800;
+    padding: 15px 10px;
+}
+
+.menu {
+    padding: 3%;
+    line-height: 1.5;
+}
+
+.damon{
+   max-width: 100%; 
+    
+}
+
+
+/*******************
+ FOOTER
+*******************/
+
+footer {
+  font-size: .75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+
+
+/*******************
+ PAGE: MAIN
+*******************/
+
+h3 {
+    margin: 0 auto;
+    width: 100px;
+    display: flex;
+    text-align: center;
+    word-spacing: 2em;
+}
+
+.contact-info {
+    padding: 0;
+    margin-left: 20%;
+    font-size: .9em;
+    list-style: none;
+    
+    
+}
+
+.contact-info a {
+    display: block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin:  0 0 10px;
+}
+
+.contact-info li.phone a {
+    background-image: url("../images/phone.png");
+    margin-left: 15%;
+}
+
+.contact-info li.mail a {
+    background-image: url("../images/mail.png");
+}
+
+.mapouter {
+     margin: 0 auto;
+     width: 100px;
+}
+
+.contact-info.hours {
+    margin: 0 auto;
+    width: 100px;
+}
+
+
+/*******************
+ PAGE: MENU
+*******************/
+
+.menu img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*******************
+ COLORS
+*******************/
+
+ /* site body */
+
+ body {
+    color: rgb(255, 255, 255);
+ }
+
+ /* nav background on mobile devices */
+
+
+ /* logo text */
+
+
+ /* green header */
+ header {
+    background: #c40700;
+    border-color: #599a68;
+}
+
+   /* links*/
+   a {
+    color: #6ab47b;
+}
+
+  /* nav links */
+
+
+  /* selected nav links */
+
+ 
+
+  /* nav links */
+
+nav a, nav a:visited {
+    color: #fff;
+}
+
+  /* selected nav links */
+
+nav a.selected, nav a:hover {
+    color: #32673f;
+}
+
+@media screen and (min-width: 660px) {
+    .contact-info {
+        padding: 0;
+        margin-left: 1%;
+        font-size: .9em;
+        list-style: none;
+        text-align: center;   
+    }
+
+  li.phone {
+      padding-right: 37%;
+  }
+
+  .contact-info li.phone a {
+    background-image: url("../images/phone.png");
+    margin-left: 70%;
+    padding-right: 15%;
+}
+}
